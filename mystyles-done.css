@@ -1,0 +1,64 @@
+header img {
+    height: 140px;
+    width: 250px;
+    vertical-align: middle;
+}
+
+img {
+    width: 800px;
+}
+
+body{
+    background-color: rgb(174, 187, 169)
+}
+.header {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 5em;
+    vertical-align: middle;
+    color: white
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: white;
+}
+
+.section{
+    color:white
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a {
+    display: block;
+    color: rgb(64, 64, 64);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    background-color: rgb(144, 144, 144);
+}
+
+/* from w3Schools card css */ 
+.card {
+    transition: 0.3s;
+    border-radius: 15px;
+    width:800px;
+    /* 5px rounded corners */
+    margin:auto;
+    background-color: white;
+}
+
+.container {
+    padding: 2px 16px;
+  }
+
+
+
